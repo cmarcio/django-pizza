@@ -9,4 +9,4 @@ pedidos = [
     }
 ]
 for pedido in pedidos:
-    print (pedido['nome'], pedido['sabor'])
+    print('Nome: {} \nSabor:{}'.format(pedido['nome'], pedido['sabor']))
